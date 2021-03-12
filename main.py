@@ -1,8 +1,6 @@
-import logging
 import bitarray
 from Huffman import *
 from menu import *
-import time
 
 def main():
     print("Welcome to Huffman Coding System")
@@ -13,4 +11,3 @@ if __name__ == "__main__":
     while finish != True:
         main()
         finish = True
-    #print(end - start)

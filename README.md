@@ -9,33 +9,30 @@ This Includes:
 * Creating codes 
 * Compressing a text file
 * decompressing a text file
-* Optional Graphviz feature which allows for an image depiction of a Huffman Tree 
 
 ## Prerequisities
 * Python 3.8 or higher 
-* If it has not been installed you can install python [Here](https://www.python.org/) 
-* Graphviz application - this depends on what operating system used but for windows it can be
-installed [Here](https://graphviz.org/download/)
+* If it has not been installed you can install python [Here](https://www.python.org/)
 
 ## Installation
 * Python Modules required:
   * Bitstring must be installed `pip install bistring`
-  * Graphviz python module must also be installed  
-
-
+  
 ## Getting Started
-Inside the zip file contains several directorys. If you locate to /venv/Huffman/books will contain .txt files 
+Inside the zip file contains several directories. If you locate to /venv/Huffman/books will contain .txt files 
 books in English, French and Portuguese respectively. These were obtained by the Gutenberg Project. (Link [Here](https://www.gutenberg.org/)) 
 Also in that folder will have three datasets obtained from [Here](http://pizzachili.dcc.uchile.cl/repcorpus.html). Each dataset came from Psuedo-Real, Artificial and Real respectively\
 Another location in the file /venv/Huffman/output will contain .bin files for compression and in the /venv/Huffman/output/texts is where .txt files will be outputted during decompression.\
-To get started, launch the main python file and a menu will be presented giving you, the user, the options to either view the huffman encoding of a file of your choosing, to compress a file or decompress a file, 
+To get started, launch the main python file and a menu will be presented giving you, the user, the options to either view the huffman encoding of a file of your choosing, to compress a file or decompress a file.
+If a file is not found, an error will be thrown. If user has selected to compress or decompress - they will also see the time taken. If user has selected the codes they are able to see the codes that were created.
 
 **Note:** that files **must** be in the directories provided and with the same file type
 
-
 ## Author's Note: 
 
-
+* Apart from testing purposes it is not possible to construct a tree with and compress with a different file. 
+This was only done for a very specific test and will not be included in the user interface design. 
+  
 ## Details
 Author: Priya Shah\
 License: MIT License

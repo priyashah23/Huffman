@@ -144,6 +144,7 @@ class Huffman:
         decompressedText.close()
 
 
+
 # Build frequency dictionary.
 def freqDictionary(text) -> dict:
     """
