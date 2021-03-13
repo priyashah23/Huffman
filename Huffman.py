@@ -84,8 +84,8 @@ class Huffman:
         if current_node.left == None and current_node.right == None:
             self.codes[current_node.char[0]] = empty_string
         else:
-            self.makeCodes(root.left, empty_string + '0')
-            self.makeCodes(root.right, empty_string + '1')
+            self.makeCodes(root.left, empty_string.join('0'))
+            self.makeCodes(root.right, empty_string.join('1'))
 
     def createCompressText(self, filename, root) -> None:
         """
